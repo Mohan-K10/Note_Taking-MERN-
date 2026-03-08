@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes : forest --default;
+}
+
+@plugin "daisyui/theme" {
+    name: "forest";
+    --color-base-100: oklch(25% 0.02 140);
+    --color-base-200: oklch(18% 0.02 140);
+}
